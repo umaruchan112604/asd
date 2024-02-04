@@ -30,9 +30,9 @@ client.on('ready', async () => {
     .setName('')
     .setDetails(`DEAD [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
+ .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1060830136414519336/1196114908551577680/Bon_Appetit_Moon_Taeil_.gif?ex=65b673d0&is=65a3fed0&hm=947f6ed1179afed7570db1e5&') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
+    .setAssetsSmallImage('https://cdn.discordapp.com/emojis/731154864360390726.gif?size=96&quality=lossless') //You can put links in tenor or discord and etc.
     .setAssetsSmallText('Twitch') //Text when you hover the Small image
     .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
     .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
