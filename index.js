@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.twitch.tv/mystiqu3x') //Must be a youtube video link 
     .setState('妬み')
     .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setDetails(`DEAD [${formatTime()}]`)
     .setStartTimestamp(Date.now())
  .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
     .setAssetsLargeText('Boring') //Text when you hover the Large image
@@ -44,7 +44,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = ` [${newTime}]`;
+      const newDetails = `[7/24] NYARKDOG 💀 [${newTime}]`;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
