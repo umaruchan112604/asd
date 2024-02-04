@@ -23,10 +23,10 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
+    .setApplicationId('1159127696064905256')
     .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState('Recording')
+    .setURL('https://www.twitch.tv/mystiqu3x') //Must be a youtube video link 
+    .setState('妬み')
     .setName('')
     .setDetails(`Valorant [${formatTime()}]`)
     .setStartTimestamp(Date.now())
