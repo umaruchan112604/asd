@@ -21,8 +21,8 @@ const pictureGede = [
 "https://media.discordapp.net/attachments/1060830136414519336/1214377396279582810/427023305_806445054639205_6339822658293874881_n.jpg?ex=65f8e415&is=65e66f15&hm=5322713c9dd57a12c0354a8ff307ff27cc6056711eedd64083d6fe1df6fd3893&=&format=webp&width=570&height=603",
                          ];
 const smallpictureGede = [
-  "https://media.discordapp.net/attachments/740833438352932920/1159747437938888804/67db61ce7e450176f276f32b6ce47017.gif?ex=65f3f278&is=65e17d78&hm=46e2ff82de56664a041060d23a1cf750e93c95762da53e8ba43b286dcd5b9c73&=",
-  "https://media.discordapp.net/attachments/1060830136414519336/1196114908551577680/Bon_Appetit_Moon_Taeil_.gif?ex=65f70d50&is=65e49850&hm=802efc51ef325cb17201dda85c907154d098f8948ad13fedf7921bc67f69db99&=",
+  "https://cdn.discordapp.com/emojis/966116896405606420.gif?size=96&quality=lossless",
+  "https://cdn.discordapp.com/emojis/966116896405606420.gif?size=96&quality=lossless",
                     ];
 const nameButtonone = "";
 let linkButtonone = "";
@@ -42,7 +42,7 @@ const randomTexts = [
   'Programming',
   'It s',
   'Killing',
-  '<e'
+  'me'
 
 
 ];
