@@ -28,7 +28,7 @@ const nameButtonone = "";
 let linkButtonone = "";
 
 const xxxx = [
-  'The 999th member in Cat Society',
+  'The 999th member in Cat Society'
 ];
 
 const randomTexts = [
