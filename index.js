@@ -27,7 +27,11 @@ const smallpictureGede = [
 const nameButtonone = "";
 let linkButtonone = "";
 
-const xxxx = ['The 999th member in Cat Society'];
+const xxxx = [
+  'The 999th member in Cat Society',
+  'Come And Join Us',
+  'Helping Others to become Cats too'
+];
 
 const randomTexts = [
   'Be',
