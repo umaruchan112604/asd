@@ -29,8 +29,6 @@ let linkButtonone = "";
 
 const xxxx = [
   'The 999th member in Cat Society',
-  'Come And Join Us',
-  'Helping Others to become Cats too'
 ];
 
 const randomTexts = [
@@ -53,6 +51,8 @@ const randomTexts = [
 
 const randomtext3 = [
  'I Need More Cats, And Rule the World.',
+  'Come And Join Us',
+  'Helping Others to become Cats too'
 
 ];
 
