@@ -9,51 +9,51 @@ const textthree = "";
 const textfour = "";
 const type = "STREAMING";
 const pictureGede = [
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206629250141134879/3C5F269B-BE16-4430-95EA-83678F7F5D34.gif?ex=65dcb40f&is=65ca3f0f&hm=cee561d459d5a9c6cce231724e790d37941a1e17da4fed45e29a85ca77dfdbcc&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206629233422762055/D01BDB2D-EA0C-484C-AE42-8B22AF712AEE.gif?ex=65dcb40b&is=65ca3f0b&hm=a2a9c18e3e4547f9355c4b91e861cc9cc58e31b5a88f5460da7c9e05745ca836&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206629216246964274/3ADC8A35-E625-4011-84F5-0C83CB64CB9D.gif?ex=65dcb407&is=65ca3f07&hm=7b6a926dc9aff6514316cff2414b017ac7fa813d05ccd87ab8f8a029825b6dba&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628570861142026/F773D7BF-D2F8-4A69-BE66-8DE9C91B0FA5.gif?ex=65dcb36d&is=65ca3e6d&hm=b56fa6abd9196d956c80e12e89e85b5cf867ebef7aeec4fad666abd743cc0145&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628546781642832/BA5825B3-1621-49CE-933E-E0AD2CA7232D.gif?ex=65dcb367&is=65ca3e67&hm=884cf767fd312b95fadd7a13dc7cec2b81d52359d9f7ddc33ea64a8cd2192ff8&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628530633580584/CDCA3A7D-9FEA-45AD-8082-A196519A8D42.gif?ex=65dcb363&is=65ca3e63&hm=808cf880aeb10ef0d9e7c4d2cb412124399a80e23772d413a2dd5c9e570dc181&" ,
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628514657476648/215233D4-05C4-406E-A305-D7A544BF576F.gif?ex=65dcb35f&is=65ca3e5f&hm=242d322dc12a8666bd4ae3fe1e0d1228d754c67b57cd866c34550371736fefb9&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628495657017364/618DF972-3020-424C-B613-C592AC450FFF.gif?ex=65dcb35b&is=65ca3e5b&hm=63eee0b0a213b70a41452d2324b94ac112352b0fe64c6448f57a41884b6c936e&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206628472819286016/D3E22FBA-291D-441F-ACA6-9883F2A57001.gif?ex=65dcb355&is=65ca3e55&hm=8438414be036b77d324c09f5d40fd1aa9948bd3694f3d0228651ebc9131992b0&",
-"https://cdn.discordapp.com/attachments/1148099836537753672/1206632008487538718/F78A6BED-B945-457B-9FBA-D5ABDF333C68.gif?ex=65dcb6a0&is=65ca41a0&hm=16ddb2d0eece420837347776985395373de61709c010ba8c38536eeed981907f&",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376189658013716/Anime-Cat-PNG-Photo.png?ex=65f8e2f5&is=65e66df5&hm=b78e62ee6e0a6650786816f377babef8a070541d762f8503e8575772787745f6&=&format=webp&quality=lossless&width=576&height=802",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376190077575218/cat-clipart-awake-hooman-5.png?ex=65f8e2f5&is=65e66df5&hm=6aa92661c8a2568d5a8d1064d64035eae55ccd3c896aa9d7bb85df6edd32478d&=&format=webp&quality=lossless&width=576&height=547",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376190463184996/cat-clipart-chibi-5.png?ex=65f8e2f5&is=65e66df5&hm=a4504eb77482a383775a4ffcf2755f87baef0319e1ea3987e9bde83023e7a583&=&format=webp&quality=lossless&width=576&height=576",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376190790598706/174162131949f7c57cc0a9b12e593c24.png?ex=65f8e2f5&is=65e66df5&hm=863f97b932d763eb03db064463cd6c6645e90629897d182de97e4a11588fa43a&=&format=webp&quality=lossless",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376231546519612/R.png?ex=65f8e2ff&is=65e66dff&hm=25a8010e40a256c3556629b53410a082581623b6405e01f96aea1d3cc37bef06&=&format=webp&quality=lossless",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376282423562261/3633b67ad7af982fc7dfe49de9fcbf5f.jpg?ex=65f8e30b&is=65e66e0b&hm=8ce334a814e85ae579aa614e6c142980709a7144c67736e238bc1b22835bf393&=&format=webp" ,
+"https://media.discordapp.net/attachments/1060830136414519336/1214376281190309919/OIP_1.jpg?ex=65f8e30b&is=65e66e0b&hm=99269a54e7a75afbf54aea65f0fc7237541a9f66de4ac2797ff0746f188a3d2f&=&format=webp",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376281483771975/OIP.jpg?ex=65f8e30b&is=65e66e0b&hm=08417803db3027287269713ab6fba8d7ef3cfce7c87895cfba46a3927a68b8c5&=&format=webp",
+"https://media.discordapp.net/attachments/1060830136414519336/1214376281844752464/71ae45506a72ec38f758109dea7510fd.jpg?ex=65f8e30b&is=65e66e0b&hm=17e9efff901cb4a97e8d21f4c9db8328a07b0274a918cae7d48b08ed3d865142&=&format=webp&width=576&height=814",
+"https://media.discordapp.net/attachments/1060830136414519336/1214377396279582810/427023305_806445054639205_6339822658293874881_n.jpg?ex=65f8e415&is=65e66f15&hm=5322713c9dd57a12c0354a8ff307ff27cc6056711eedd64083d6fe1df6fd3893&=&format=webp&width=570&height=603",
                          ];
 const smallpictureGede = [
-  "https://cdn.discordapp.com/attachments/1148099836537753672/1206632266969649172/78901A24-C7E7-4DB8-AB22-9CC5A4727D83.gif?ex=65dcb6de&is=65ca41de&hm=cd0d40982b18aba1281c4bcb62aa0f4fc7bfe5ed82f7968debcbf70688b1e03b&",
-  "https://cdn.discordapp.com/attachments/1206698651322159134/1206698816217288724/368f48260e17412b038f2bbadb2bf1b9.gif?ex=65dcf4d9&is=65ca7fd9&hm=ce9fc0835a036ea38ca022556aa75c8758ddb0cefe0fc667e51a313d8f7cccf3&",
+  "https://media.discordapp.net/attachments/740833438352932920/1159747437938888804/67db61ce7e450176f276f32b6ce47017.gif?ex=65f3f278&is=65e17d78&hm=46e2ff82de56664a041060d23a1cf750e93c95762da53e8ba43b286dcd5b9c73&=",
+  "https://media.discordapp.net/attachments/1060830136414519336/1196114908551577680/Bon_Appetit_Moon_Taeil_.gif?ex=65f70d50&is=65e49850&hm=802efc51ef325cb17201dda85c907154d098f8948ad13fedf7921bc67f69db99&=",
                     ];
 const nameButtonone = "";
 let linkButtonone = "";
 
-const xxxx = ['The 5th Great Ninja War🥷'];
+const xxxx = ['The 999th member in Cat Society'];
 
 const randomTexts = [
-  'Mizukagami no Jutsu',
-  'Daikodan no Jutsu',
-  'Doton: Iwayado Kuzushi',
-  'Doton: Uiten Pen',
-  'Katon: Ryūen Hōka no Jutsu',
-  'Katon: Gōen no Jutsu',
-  'Susanoo: Chidori',
-  'Kamui Raikiri',
-  'Futon: Kiryū Ranbu',
-  'Futon: Rasengan',
-  'Amenominaka',
-  'Indra no Ya',
-  'Rasenshuriken'
+  'Be',
+  'The',
+  'One',
+  'Of',
+  'My',
+  'Cat',
+  'Collection',
+  'But',
+  'Fuck',
+  'Programming',
+  'It s',
+  'Killing',
+  '<e'
 
 
 ];
 
 const randomtext3 = [
- '𝙁𝙚𝙚𝙡 𝙩𝙝𝙚 𝙥𝙖𝙞𝙣, 𝙧𝙚𝙛𝙡𝙚𝙘𝙩 𝙤𝙣 𝙩𝙝𝙚 𝙥𝙖𝙞𝙣.',
+ 'I Need More Cats, And Rule the World.',
 
 ];
 
 const randomtext4 = [
-  'FaceBook',
+  'Meow Meow',
 
 
 ];
@@ -61,7 +61,7 @@ const randomtext4 = [
 const randomtext5 = [];
 
 const randomLinks = [
-  "https://www.facebook.com/dumbohz?mibextid=LQQJ4d",
+  "https://www.twitch.tv/mystiqu3x",
 ];
 
 
