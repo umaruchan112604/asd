@@ -70,6 +70,19 @@ function getRandomInt(min, max) {
 function getRandomElement(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
+
+function updateRandomButtonText4() {
+    const randomButtonText4 = getRandomElement(randomtext4);
+    return randomButtonText4;
+}
+
+let randomButtonText4 = updateRandomButtonText4();
+
+setInterval(() => {
+    randomButtonText4 = updateRandomButtonText4();
+}, 500);
+
+
 function getTimestampsForDay(year, month, day) {
   const date = new Date(Date.UTC(year, month, day));
   date.setHours(date.getHours() + 7);
