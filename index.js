@@ -9,16 +9,8 @@ const textthree = "";
 const textfour = "";
 const type = "STREAMING";
 const pictureGede = [
-"https://media.discordapp.net/attachments/1060830136414519336/1214376189658013716/Anime-Cat-PNG-Photo.png?ex=65f8e2f5&is=65e66df5&hm=b78e62ee6e0a6650786816f377babef8a070541d762f8503e8575772787745f6&=&format=webp&quality=lossless&width=576&height=802",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376190077575218/cat-clipart-awake-hooman-5.png?ex=65f8e2f5&is=65e66df5&hm=6aa92661c8a2568d5a8d1064d64035eae55ccd3c896aa9d7bb85df6edd32478d&=&format=webp&quality=lossless&width=576&height=547",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376190463184996/cat-clipart-chibi-5.png?ex=65f8e2f5&is=65e66df5&hm=a4504eb77482a383775a4ffcf2755f87baef0319e1ea3987e9bde83023e7a583&=&format=webp&quality=lossless&width=576&height=576",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376190790598706/174162131949f7c57cc0a9b12e593c24.png?ex=65f8e2f5&is=65e66df5&hm=863f97b932d763eb03db064463cd6c6645e90629897d182de97e4a11588fa43a&=&format=webp&quality=lossless",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376231546519612/R.png?ex=65f8e2ff&is=65e66dff&hm=25a8010e40a256c3556629b53410a082581623b6405e01f96aea1d3cc37bef06&=&format=webp&quality=lossless",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376282423562261/3633b67ad7af982fc7dfe49de9fcbf5f.jpg?ex=65f8e30b&is=65e66e0b&hm=8ce334a814e85ae579aa614e6c142980709a7144c67736e238bc1b22835bf393&=&format=webp" ,
-"https://media.discordapp.net/attachments/1060830136414519336/1214376281190309919/OIP_1.jpg?ex=65f8e30b&is=65e66e0b&hm=99269a54e7a75afbf54aea65f0fc7237541a9f66de4ac2797ff0746f188a3d2f&=&format=webp",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376281483771975/OIP.jpg?ex=65f8e30b&is=65e66e0b&hm=08417803db3027287269713ab6fba8d7ef3cfce7c87895cfba46a3927a68b8c5&=&format=webp",
-"https://media.discordapp.net/attachments/1060830136414519336/1214376281844752464/71ae45506a72ec38f758109dea7510fd.jpg?ex=65f8e30b&is=65e66e0b&hm=17e9efff901cb4a97e8d21f4c9db8328a07b0274a918cae7d48b08ed3d865142&=&format=webp&width=576&height=814",
-"https://media.discordapp.net/attachments/1060830136414519336/1214377396279582810/427023305_806445054639205_6339822658293874881_n.jpg?ex=65f8e415&is=65e66f15&hm=5322713c9dd57a12c0354a8ff307ff27cc6056711eedd64083d6fe1df6fd3893&=&format=webp&width=570&height=603",
+"https://media.discordapp.net/attachments/1221090089514434620/1221613163674341386/0B2EBD24-4B6E-43F7-BAC9-3510FD064AF9.gif?ex=661336ea&is=6600c1ea&hm=d135a6f1e7793410910b7df402bc2e86336e96a8e3ea2f6384d287e3861acec4&=",
+
                          ];
 const smallpictureGede = [
   "https://cdn.discordapp.com/emojis/966116896405606420.gif?size=96&quality=lossless",
