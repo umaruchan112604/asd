@@ -131,6 +131,7 @@ bot.on('ready', async () => {
     const randomButtonText4 = getRandomElement(randomtext4);
     const randomButtonText5 = getRandomElement(randomtext5);
     linkButtonone = getRandomElement(randomLinks);
+    const detailsText = `${randomButtonText3} - ${resultthree}`;
     const pr = new RichPresence()  
       .setName(`Honkai Star Rail`)
       .setURL('https://www.twitch.tv/mystiqu3x')
@@ -142,7 +143,7 @@ bot.on('ready', async () => {
 🌡${roundedNumber} °C ⋆ 🍃 ${roundwNumber} m/s`)
       .setAssetsSmallText(`ping: ${bot.ws.ping}ms`)
       .setState(`: ${randomXX}`)
-      .setDetails(`${randomButtonText3}`, `${resultthree}`)
+      .setDetails(detailsText)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
       .addButton(`${randomButtonText}`, `${linkButtonone}`)
