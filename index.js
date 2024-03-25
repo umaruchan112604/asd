@@ -37,13 +37,14 @@ const randomtext3 = [
   '𝐼𝓉 𝒲𝒶𝓈 𝒜 𝒟𝒶𝓇𝓀 𝒶𝓃𝒹 𝒮𝓉𝑜𝓇𝓂𝓎 𝒩𝒾𝑔𝒽𝓉',
   '𝒯𝒽𝑒 𝒹𝒶𝓇𝓀 𝒶𝓁𝓁𝓎 𝓂𝒶𝒹𝑒 𝓂𝑒 𝒻𝑒𝑒𝓁 𝓊𝓃𝑒𝒶𝓈𝓎',
   '𝐼𝓁𝓁 𝓉𝒶𝓀𝑒 𝒾𝓉 𝒶𝓁𝓁',
-  '𝐵𝑒 𝒹𝓇𝑒𝒶𝓂𝒾𝓃𝑔',
+  '𝐵𝑒 𝒹𝓇𝑒𝒶𝓂𝒾𝓃𝑔'
 
 
 ];
 
 const randomtext4 = [
-  '★☆★☆★☆★', '☆★☆★☆★☆'
+  '★☆★☆★☆★', 
+  '☆★☆★☆★☆'
 
 
 ];
@@ -118,7 +119,7 @@ bot.on('ready', async () => {
   const roundwNumber = roundToDecimal(getWRandomNumber());
     const month = addZero(months+1);
     const dates = addZero(datee)
-    const resultthree = "Badminton"
+    const resultthree = `〈 ${addZero(hours)}:${addZero(minutes)} 〉 • 〈 ${dates} / ${month} / ${year} 〉`
 
 
     // Randomize the link and text for the button
@@ -141,7 +142,7 @@ bot.on('ready', async () => {
 🌡${roundedNumber} °C ⋆ 🍃 ${roundwNumber} m/s`)
       .setAssetsSmallText(`ping: ${bot.ws.ping}ms`)
       .setState(`: ${randomXX}`)
-      .setDetails(`${randomButtonText3}`)
+      .setDetails(`${randomButtonText3}`, `${resultthree}`)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
       .addButton(`${randomButtonText}`, `${linkButtonone}`)
