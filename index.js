@@ -1,4 +1,4 @@
-const { Client, RichPresence } = require('discord.js-selfbot-v13');
+const { Client, RichPresence, MessageButtonStyles } = require('discord.js-selfbot-v13');
 const express = require('express');
 const app = express();
 const bot = new Client({ checkUpdate: false });
@@ -19,25 +19,27 @@ const smallpictureGede = [
 const nameButtonone = "";
 let linkButtonone = "";
 
-const xxxx = ['The 999th member in Cat Society'];
+const xxxx = ['Vampire (Olivia Rodrigo'];
 
 const randomTexts = [
-  'Come And Join Us'
+  "🖤🤍What's wrong? 🖤🤍"
 
 
 ];
 
 const randomtext3 = [
-  '𝓅𝓇𝒶𝓈𝑒 𝓂𝑒 𝓂𝒶𝓇𝓉𝓎𝓇',
-  '𝒯𝒽𝑒 𝒟𝒶𝓇𝓀 𝐸𝓁𝒻',
-  '𝓈𝓅𝒶𝓇𝓀𝓁𝒾𝓃𝑔 𝑒𝓂𝑜𝓉𝒾𝑜𝓃',
-  '𝒯𝑜𝓂𝑜𝓇𝓇𝑜𝓌 𝓍 𝓉𝑜𝑔𝑒𝓉𝒽𝑒𝓇',
-  '𝐼𝓃𝓉𝑒𝓇𝒸𝑜𝓃𝓃𝑒𝒸𝓉𝑒𝒹',
-  '𝒰𝓃𝓉𝒾𝓉𝓁𝑒𝒹',
-  '𝐼𝓉 𝒲𝒶𝓈 𝒜 𝒟𝒶𝓇𝓀 𝒶𝓃𝒹 𝒮𝓉𝑜𝓇𝓂𝓎 𝒩𝒾𝑔𝒽𝓉',
-  '𝒯𝒽𝑒 𝒹𝒶𝓇𝓀 𝒶𝓁𝓁𝓎 𝓂𝒶𝒹𝑒 𝓂𝑒 𝒻𝑒𝑒𝓁 𝓊𝓃𝑒𝒶𝓈𝓎',
-  '𝐼𝓁𝓁 𝓉𝒶𝓀𝑒 𝒾𝓉 𝒶𝓁𝓁',
-  '𝐵𝑒 𝒹𝓇𝑒𝒶𝓂𝒾𝓃𝑔'
+  '𝓒𝓪𝓾𝓼𝓮 𝓘 𝓿𝓮 𝓶𝓪𝓭𝓮 𝓼𝓸𝓶𝓮 𝓻𝓮𝓪𝓵 𝓫𝓲𝓰 𝓶𝓲𝓼𝓽𝓪𝓴𝓮𝓼',
+  '𝓑𝓾𝓽 𝔂𝓸𝓾 𝓶𝓪𝓴𝓮 𝓽𝓱𝓮 𝔀𝓸𝓻𝓼𝓽 𝓸𝓷𝓮 𝓵𝓸𝓸𝓴 𝓯𝓲𝓷𝓮',
+  '𝓘 𝓼𝓱𝓸𝓾𝓵𝓭 𝓿𝓮 𝓴𝓷𝓸𝔀𝓷 𝓲𝓽 𝔀𝓪𝓼 𝓼𝓽𝓻𝓪𝓷𝓰𝓮',
+  '𝓨𝓸𝓾 𝓸𝓷𝓵𝔂 𝓬𝓸𝓶𝓮 𝓸𝓾𝓽 𝓪𝓽 𝓷𝓲𝓰𝓱𝓽',
+  '𝓘 𝓾𝓼𝓮𝓭 𝓽𝓸 𝓽𝓱𝓲𝓷𝓴 𝓘 𝔀𝓪𝓼 𝓼𝓶𝓪𝓻𝓽',
+  '𝓑𝓾𝓽 𝔂𝓸𝓾 𝓶𝓪𝓭𝓮 𝓶𝓮 𝓵𝓸𝓸𝓴 𝓼𝓸 𝓷𝓪𝓲𝓿𝓮',
+  '𝓣𝓱𝓮 𝔀𝓪𝔂 𝔂𝓸𝓾 𝓼𝓸𝓵𝓭 𝓶𝓮 𝓯𝓸𝓻 𝓹𝓪𝓻𝓽𝓼',
+  '𝓐𝓼 𝔂𝓸𝓾 𝓼𝓾𝓷𝓴 𝔂𝓸𝓾𝓻 𝓽𝓮𝓮𝓽𝓱 𝓲𝓷𝓽𝓸 𝓶𝓮, 𝓸𝓱',
+  '𝓨𝓸𝓾 𝓼𝓪𝓲𝓭 𝓲𝓽 𝔀𝓪𝓼 𝓽𝓻𝓾𝓮 𝓵𝓸𝓿𝓮, 𝓫𝓾𝓽 𝔀𝓸𝓾𝓵𝓭𝓷𝓽 𝓽𝓱𝓪𝓽 𝓫𝓮 𝓱𝓪𝓻𝓭?',
+  'You cant love anyone, cause that would mean you had a heart',
+  '𝓘 𝓽𝓻𝓲𝓮𝓭 𝔂𝓸𝓾 𝓱𝓮𝓵𝓹 𝔂𝓸𝓾 𝓸𝓾𝓽, 𝓷𝓸𝔀 𝓘 𝓴𝓷𝓸𝔀 𝓽𝓱𝓪𝓽 𝓘 𝓬𝓪𝓷𝓽,
+  'Cause how you thinks the kind of thing Ill never understand',
 
 
 ];
@@ -119,7 +121,7 @@ bot.on('ready', async () => {
   const roundwNumber = roundToDecimal(getWRandomNumber());
     const month = addZero(months+1);
     const dates = addZero(datee)
-    const resultthree = `〈 ${addZero(hours)}:${addZero(minutes)} 〉 • 〈 ${dates} / ${month} / ${year} 〉`
+    const resultthree = `〈 ${addZero(hours)}:${addZero(minutes)} 〉`
 
 
     // Randomize the link and text for the button
@@ -146,8 +148,8 @@ bot.on('ready', async () => {
       .setDetails(detailsText)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
-      .addButton(`${randomButtonText}`, `${linkButtonone}`)
-      .addButton(`${randomButtonText4}`, `${linkButtonone}`)
+      .addButton(`${randomButtonText}`, `${linkButtonone}`, MessageButtonStyles.PRIMARY:Blue color.)
+      .addButton(`${randomButtonText4}`, `${linkButtonone}`, MessageButtonStyles.SECONDARY:Black color.)
     bot.user.setActivity(pr.toJSON());
   }, getRandomInt(1000, 3000));
   console.log(`${bot.user.tag} Status is showed up !!`);
