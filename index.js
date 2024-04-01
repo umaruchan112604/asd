@@ -152,8 +152,8 @@ bot.on('ready', async () => {
       .setDetails(detailsText)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
-      .addButton(`${randomButtonText}`, `${linkButtonone}`, MessageButtonStyles.PRIMARY)
-      .addButton(`${randomButtonText4}`, `${linkButtonone}`, MessageButtonStyles.DANGER)
+      .addButton(`${randomButtonText}`, `${linkButtonone}`, MessageButtonStyles.SECONDARY)
+      .addButton(`${randomButtonText4}`, `${linkButtonone}`, MessageButtonStyles.DANGER);
     bot.user.setActivity(pr.toJSON());
   }, getRandomInt(1000, 3000));
   console.log(`${bot.user.tag} Status is showed up !!`);
