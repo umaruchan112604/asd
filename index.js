@@ -1,4 +1,4 @@
-const { Client, RichPresence, MessageButtonStyles } = require('discord.js-selfbot-v13');
+const { Client, RichPresence } = require('discord.js-selfbot-v13');
 const express = require('express');
 const app = express();
 const bot = new Client({ checkUpdate: false });
@@ -152,8 +152,8 @@ bot.on('ready', async () => {
       .setDetails(detailsText)
       .setStartTimestamp(timestamps.timestampMidnight)
       .setEndTimestamp(timestamps.timestampEndOfDay)
-      .addButton(`${randomButtonText}`, `${linkButtonone}`, MessageButtonStyles.SECONDARY)
-      .addButton(`${randomButtonText4}`, `${linkButtonone}`, MessageButtonStyles.DANGER);
+      .addButton(`${randomButtonText}`, `${linkButtonone}`)
+      .addButton(`${randomButtonText4}`, `${linkButtonone}`)
     bot.user.setActivity(pr.toJSON());
   }, getRandomInt(1000, 3000));
   console.log(`${bot.user.tag} Status is showed up !!`);
