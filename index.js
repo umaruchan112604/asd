@@ -71,15 +71,20 @@ function getRandomElement(arr) {
 }
 function getTimestampsForDay(year, month, day) {
   const date = new Date(Date.UTC(year, month, day));
-  date.setHours(date.getHours() + 7);
+  date.setHours(date.getHours() + 8);
   date.setUTCHours(0, 0, 0, 0);
   const timestampMidnight = date.getTime();
-  date.setUTCHours(23, 59, 59, 999);
+  date.setUTCHours(11, 59, 59, 999);
   const timestampEndOfDay = date.getTime();
+  const ampmMidnight = date.getHours() < 12 ? 'AM' : 'PM';
+  const ampmEndOfDay = date.getHours() < 12 ? 'AM' : 'PM';
+
 
   return {
     timestampMidnight,
-    timestampEndOfDay
+    timestampEndOfDay,
+    ampmMidnight,
+    ampmEndOfDay
   };
 }
 
@@ -101,7 +106,7 @@ bot.on('ready', async () => {
   setInterval(() => {
     const date = new Date();
     const datee = date.getDate();
-    const hours = (date.getHours() + 7) % 24;
+    const hours = (date.getHours() + 8) % 24;
     const minutes = date.getMinutes();
     const months = date.getMonth();
     const year = date.getFullYear();
@@ -125,7 +130,7 @@ bot.on('ready', async () => {
   const roundwNumber = roundToDecimal(getWRandomNumber());
     const month = addZero(months+1);
     const dates = addZero(datee)
-    const resultthree = `〈 ${addZero(hours)}:${addZero(minutes)} 〉`
+    const resultthree = `〈 ${addZero(hours)}:${addZero(minutes)} ${hours < 12 ? 'AM' : 'PM'} 〉`;
 
 
     // Randomize the link and text for the button
